@@ -1,0 +1,10 @@
+version: "3.5"
+services:
+  chat: 
+    environment: 
+      POSTGRES_DB: "chat"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: 123456
+    image: postgres:latest
+    ports:
+      - 5437:5432

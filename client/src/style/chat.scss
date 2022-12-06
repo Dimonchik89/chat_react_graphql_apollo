@@ -1,0 +1,17 @@
+@import "./vars";
+
+.chat {
+    flex: 1 0 auto;
+    overflow-y: auto;
+}
+
+.chat-wrapper {
+    width: 50%;
+    height: 60%;
+    border: 2px solid $gray;
+    border-radius: .5rem;
+    padding: 2rem 3rem;
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: column;
+}
